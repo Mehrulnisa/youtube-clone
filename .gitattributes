@@ -1,0 +1,7 @@
+# Use LF for all text files and normalize line endings
+* text=auto
+
+# Explicitly set line endings for certain file types if needed
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
