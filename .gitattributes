@@ -1,0 +1,5 @@
+# Ensure consistent line endings
+* text=auto
+*.sh text eol=lf  # Shell scripts
+*.bat text eol=crlf  # Batch files
+*.ps1 text eol=crlf  # PowerShell scripts
